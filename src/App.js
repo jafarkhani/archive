@@ -8,17 +8,17 @@ import Details from './Details';
 import Review from './Review';
 import RelatedItems from './RelatedItems';
 import DownloadFiles from './DownloadFiles';
-import { useMediaQuery } from 'react-responsive'
+/*import { useMediaQuery } from 'react-responsive'*/
 
 const App = () => {
   
 
-  const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 })
+  /*const isDesktopOrLaptop = useMediaQuery({ minDeviceWidth: 1224 })
   const isBigScreen = useMediaQuery({ minDeviceWidth: 1824 })
   const isTabletOrMobile = useMediaQuery({ maxWidth: 1224 })
   const isTabletOrMobileDevice = useMediaQuery({ maxDeviceWidth: 1224 })
   const isPortrait = useMediaQuery({ orientation: 'portrait' })
-  const isRetina = useMediaQuery({ minResolution: '2dppx' })
+  const isRetina = useMediaQuery({ minResolution: '2dppx' })*/
   
   const [detailUrl , setDetailUrl] = useState("https://archive.org/metadata/InformationM");    
   const [relatedUrl , setRelatedUrl] = useState("https://be-api.us.archive.org/mds/v1/get_related/all/InformationM");    
